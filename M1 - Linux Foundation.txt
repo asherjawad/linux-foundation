@@ -39,7 +39,13 @@ tree -L 1
 .. double dot level up 
 
 
-pwd
-
+pwd current directory 
+ 
 
 / Slash mean path 
+
+cd..  previous directory
+cd    home directory 
+
+
+ls -ld scripts
