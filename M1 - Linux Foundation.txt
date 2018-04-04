@@ -1,0 +1,45 @@
+ls /dev
+ls /etc
+cat /etc/inittab
+
+vi /etc/yum.conf
+
+:wq
+
+:wq! forcefully 
+
+gedit
+
+gvim
+
+mkdir -p backups;  -p if exist not create/ 
+
+mkdir -p backups/myfile; touch backups/myfile/abc.txt
+
+cal
+
+date
+
+cal 12 2017
+
+command --help 
+
+man and info 
+man ls
+info ls
+
+Ctrl-C   or q to exit 
+
+sudo yum install tree -y
+
+tree -L 1
+
+. Single Dot mean current location
+
+.. double dot level up 
+
+
+pwd
+
+
+/ Slash mean path 
