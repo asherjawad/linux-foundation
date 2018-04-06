@@ -1,0 +1,49 @@
+cat /etc/passwd > /tmp/passwd.tmp
+
+vi /tmp/passwd.tmp
+
+touch file1 file2
+
+ls -l file1 file2 file3
+
+
+ls -l file1 file2 file3 1> /tmp/passwd.tmp  show me error in screen and save result 
+
+ls -l file1 file2 file3 2> /tmp/passwd.tmp  show result and save error in screen 
+
+>> will append 
+
+i/o redirection 
+
+find /etc -name passwd
+
+sudo find path -name file-keyword
+
+
+grep command get from file content
+
+/dev/null file  (behave like black hole no output)
+
+command1 | command 2
+
+cat /etc/passwd | grep '/bin/bash' | cut -d':' -f6
+
+cat show in terminal 
+
+less shows result in file
+? upword search
+/ downward search 
+
+n for next next
+
+head 
+
+head - display first 10 lines 
+
+head /etc/passwd -n 1
+
+tail - display last 10 lines
+
+tail /etc/passwd -n 1
+
+tail 

@@ -51,3 +51,4 @@ chmod ugo-x direcory
 2 write
 1 execute
 0 none
+
