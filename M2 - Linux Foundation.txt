@@ -1,0 +1,53 @@
+cp 
+
+scp for remote / local
+
+mkdir test 
+touch test.txt
+cp test.txt test
+
+cp -i a.txt abc/  -i interactive / ask from user
+
+-f forcefully 
+-v print operation
+
+mv test abc     test -> abc 
+
+rm -i file
+-r directory
+-f file force
+
+* avoid asterik
+
+rm -r recursive remove directory
+
+rmdir test   (only for empty)
+cat /etc/passwd
+ls -al
+cat /etc/group
+
+1
+
+clear
+
+ls -l
+
+kill -9 pid
+
+
+chmod -r 
+chmod ufo+r file
+chmod o-wx file1
+
+
+chmod ugo+x text.txt
+chmod a+x text.txt
+
+
+chmod ugo-x direcory
+
+
+4 read
+2 write
+1 execute
+0 none
