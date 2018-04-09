@@ -1,0 +1,64 @@
+sudo useradd test1 
+tail - 1 /etc/passwd
+
+sudo useradd test2  -d /opt/test2
+tail -1 /etc/passed
+
+
+
+sudo userdel test1
+sudo userdel -r test1 (with directory)
+
+to change passwor d
+
+sudo passwd test1
+
+su test1 
+
+exit
+
+grep vagrant /etc/passwd  (grep print full command )
+
+date --help | grep year   (to filter year)
+
+grep vagrant /etc/passwd -i  (case insensitively)
+
+ps -ef | grep systemd
+
+ps -ef | grep systemd | grep -v grep  (not contains pattern)
+
+grep -e '.*bash' /etc/passwd  (regular expression )
+
+sudo grep -R 'vagrant' /etc/*
+
+
+sudo grep -R 'vagrant' /etc/* | less
+
+grep 'root\|vagrant' /etc/passwd
+
+grep 'root\|vagrant\|bash' /etc/passwd
+
+grep 'root\|vagrant\|bash' /etc/passwd | cut -d: -f6
+
+cut -c1-5 /etc/passwd
+
+
+echo "jawad sidiqui" | tr 'a-z' 'A-Z'
+
+echo "jawad sidiqui" | tr '[:space:]' ','
+
+
+sed stream editor (text manipulation) very powerful / search operations 
+
+
+sed 's/^.*E/mango/' fruits.txt
+
+
+sed 's#^datadir=/.*$#datadir=/tmp#' /etc/my.cnf
+
+sed -e multiple commands
+
+sed -e 's/Apples/aam/' -e 's/Che/chacha/' fruits.txt
+
+
+sudo yum -y install vim-enhanced
