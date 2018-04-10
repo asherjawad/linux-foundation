@@ -62,3 +62,21 @@ sed -e 's/Apples/aam/' -e 's/Che/chacha/' fruits.txt
 
 
 sudo yum -y install vim-enhanced
+
+https://vim.rtorr.com/
+https://github.com/hackjutsu/vim-cheatsheet
+https://www.fprintf.net/vimCheatSheet.html
+
+https://www.tutorialspoint.com/unix/unix-regular-expressions.htm
+https://www.gnu.org/software/sed/manual/html_node/Regular-Expressions.html
+https://www.ibm.com/developerworks/library/l-sed2/
+http://www.grymoire.com/Unix/Sed.html
+http://gilmation.com/articles/regexp-keeping-parts-of-a-pattern-in-sed/
+https://www.tutorialspoint.com/awk/awk_regular_expressions.htm
+https://www.tecmint.com/use-linux-awk-command-to-filter-text-string-in-files/
+https://dzone.com/articles/35-examples-of-regex-patterns-using-sed-and-awk-in
+https://w3-o.cs.hm.edu/~ruckert/compiler/regexp.html
+https://www.tutorialspoint.com/awk/awk_regular_expressions.htm
+https://www.tecmint.com/use-linux-awk-command-to-filter-text-string-in-files/
+https://dzone.com/articles/35-examples-of-regex-patterns-using-sed-and-awk-in
+https://w3-o.cs.hm.edu/~ruckert/compiler/regexp.html
